@@ -17,8 +17,12 @@ component:LoginComponent,
     component:ThemeComponent,
     children: [
         {
-path:'',
-loadChildren:'./pages/dashboard/dashboard.module#DashboardModule'
+          path:'',
+          loadChildren:'./pages/dashboard/dashboard.module#DashboardModule',
+        },
+        {
+            path: '',
+            loadChildren:'./pages/administration/administration.module#AdministrationModule',
         }
     ]
 
