@@ -23,6 +23,10 @@ component:LoginComponent,
         {
             path: '',
             loadChildren:'./pages/administration/administration.module#AdministrationModule',
+        },
+        {
+            path:'',
+            loadChildren:'./pages/settings/settings.module#SettingsModule'
         }
     ]
 
