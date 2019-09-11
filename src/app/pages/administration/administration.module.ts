@@ -7,16 +7,10 @@ import { UsersComponent } from './users/users.component';
 
 
 @NgModule({
-
-  declarations: [
-    
-    RolesComponent, 
-    UsersComponent
-  ],
+  declarations: [RolesComponent, UsersComponent],
   imports: [
     CommonModule,
-    AdministrationRoutingModule,
-
+    AdministrationRoutingModule
   ]
 })
 export class AdministrationModule { }
