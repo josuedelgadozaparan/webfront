@@ -19,7 +19,9 @@ component:LoginComponent,
         {
           path:'',
           loadChildren:'./pages/dashboard/dashboard.module#DashboardModule',
-        }
+        },
+        {path:'',loadChildren:'./pages/administration/administration.module#AdministrationModule'},
+        {path:'',loadChildren:'./pages/settings/settings.module#SettingsModule'}
       
     ]
 
